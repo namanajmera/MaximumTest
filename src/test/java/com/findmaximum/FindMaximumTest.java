@@ -10,7 +10,7 @@ public class FindMaximumTest {
     @Test
     public void givenMaximumIntegerAtPosition1_ShouldReturnIntegerOfPosition1() {
         FindMaximum findMaximum = new FindMaximum();
-        Integer result = findMaximum.maximum(3, 4, 5);
+        Integer result = findMaximum.maximum(5,3,4);
         Assertions.assertEquals(5, result);
     }
 
@@ -24,7 +24,7 @@ public class FindMaximumTest {
     @Test
     public void givenMaximumIntegerAtPosition3_ShouldReturnIntegerOfPosition3() {
         FindMaximum findMaximum = new FindMaximum();
-        Integer result = findMaximum.maximum(5, 3, 4);
+        Integer result = findMaximum.maximum(3,4,5);
         Assertions.assertEquals(5, result);
     }
 
@@ -32,22 +32,22 @@ public class FindMaximumTest {
     @Test
     public void givenMaximumFloatAtPosition1_ShouldReturnFloatOfPosition1() {
         FindMaximum findMaximum = new FindMaximum();
-        Double result = findMaximum.maximum(3.3, 4.4, 5.44);
-        Assertions.assertEquals(5.44, result);
+        Float result = findMaximum.maximum( 5.44f,3.33f, 4.44f);
+        Assertions.assertEquals(5.44f, result);
     }
 
     @Test
     public void givenMaximumFloatAtPosition2_ShouldReturnFloatOfPosition2() {
         FindMaximum findMaximum = new FindMaximum();
-        Double result = findMaximum.maximum(3.3, 5.55, 4.4);
-        Assertions.assertEquals(5.55, result);
+        Float result = findMaximum.maximum(3.3f, 5.55f, 4.4f);
+        Assertions.assertEquals(5.55f, result);
     }
 
     @Test
     public void givenMaximumFloatAtPosition3_ShouldReturnFloatOfPosition3() {
         FindMaximum findMaximum = new FindMaximum();
-        Double result = findMaximum.maximum(5.55, 3.33, 4.44);
-        Assertions.assertEquals(5.55, result);
+        Float result = findMaximum.maximum(4.44f, 3.33f, 5.55f);
+        Assertions.assertEquals(5.55f, result);
     }
 
     //    Test cases for String Maximum
@@ -70,5 +70,26 @@ public class FindMaximumTest {
         FindMaximum findMaximum = new FindMaximum();
         String result = findMaximum.maximum("Banana","Apple","Peach");
         Assertions.assertEquals("Peach", result);
+    }
+//    For Generic Results
+    @Test
+    public <T extends Comparable<T>> void givenMaximumGenericIntegerAt_ShouldReturnGenericInteger() {
+        FindMaximum findMaximum = new FindMaximum();
+        T result= (T) findMaximum.maximum(5,4,3);
+        Assertions.assertEquals(5,result);
+    }
+
+    @Test
+    public <T extends Comparable<T>> void givenMaximumGenericFloatAt_ShouldReturnGenericFloat() {
+        FindMaximum findMaximum = new FindMaximum();
+        T result= (T) findMaximum.maximum(3.33f,4.44f,5.55f);
+        Assertions.assertEquals(5.55f,result);
+    }
+
+    @Test
+    public <T extends Comparable<T>> void givenMaximumGenericStringAt_ShouldReturnGenericString() {
+        FindMaximum findMaximum = new FindMaximum();
+        T result= (T) findMaximum.maximum("Apple","Peach","Banana");
+        Assertions.assertEquals("Peach",result);
     }
 }
