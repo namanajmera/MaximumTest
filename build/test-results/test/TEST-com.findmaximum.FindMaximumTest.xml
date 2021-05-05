@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.findmaximum.FindMaximumTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-05T03:57:14" hostname="HACKERNAMAN" time="0.016">
+<testsuite name="com.findmaximum.FindMaximumTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-05T04:31:51" hostname="HACKERNAMAN" time="0.027">
   <properties/>
-  <testcase name="givenMaximumIntegerAtPosition1_ShouldReturnIntegerOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.014"/>
+  <testcase name="givenMaximumFloatAtPosition1_ShouldReturnFloatOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.019"/>
+  <testcase name="givenMaximumFloatAtPosition2_ShouldReturnFloatOfPosition2()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenMaximumFloatAtPosition3_ShouldReturnFloatOfPosition3()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
+  <testcase name="givenMaximumIntegerAtPosition1_ShouldReturnIntegerOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
   <testcase name="givenMaximumIntegerAtPosition3_ShouldReturnIntegerOfPosition3()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
   <testcase name="givenMaximumIntegerAtPosition2_ShouldReturnIntegerOfPosition2()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
