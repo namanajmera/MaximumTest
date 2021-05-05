@@ -1,5 +1,9 @@
 package com.findmaximum;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class FindMaximum<T extends Comparable<T>> {
     private T firstValue, secondValue, thirdValue;
 
@@ -55,6 +59,14 @@ public class FindMaximum<T extends Comparable<T>> {
             max = num3;
         }
         return max;
+    }
+
+//    Putting Multiple Inputs in Parameters using varargs
+    @SafeVarargs
+    public static <T extends Comparable<T>> T maximum(T... values) {
+        List<T> tList = Arrays.asList(values);
+        Collections.sort(tList);
+        return tList.get(tList.size() - 1);
     }
 
     public T testMaximum() {
