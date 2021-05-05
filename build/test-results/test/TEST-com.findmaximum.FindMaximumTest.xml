@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.findmaximum.FindMaximumTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-05-05T05:07:57" hostname="HACKERNAMAN" time="0.029">
+<testsuite name="com.findmaximum.FindMaximumTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-05-05T06:10:15" hostname="HACKERNAMAN" time="0.028">
   <properties/>
-  <testcase name="givenMaximumStringAtPosition3_ShouldReturnStringOfPosition3()" classname="com.findmaximum.FindMaximumTest" time="0.016"/>
-  <testcase name="givenMaximumFloatAtPosition1_ShouldReturnFloatOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenMaximumStringAtPosition3_ShouldReturnStringOfPosition3()" classname="com.findmaximum.FindMaximumTest" time="0.015"/>
+  <testcase name="givenGenericStringValue_ShouldReturnMaximumStringValue()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenMaximumFloatAtPosition1_ShouldReturnFloatOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
   <testcase name="givenMaximumFloatAtPosition2_ShouldReturnFloatOfPosition2()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
   <testcase name="givenMaximumFloatAtPosition3_ShouldReturnFloatOfPosition3()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
   <testcase name="givenMaximumIntegerAtPosition1_ShouldReturnIntegerOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
+  <testcase name="givenGenericIntegerValue_ShouldReturnMaximumIntegerValue()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
   <testcase name="givenMaximumIntegerAtPosition3_ShouldReturnIntegerOfPosition3()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenGenericFloatValue_ShouldReturnMaximumFloatValue()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
   <testcase name="givenMaximumGenericIntegerAt_ShouldReturnGenericInteger()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
-  <testcase name="givenMaximumGenericStringAt_ShouldReturnGenericString()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
+  <testcase name="givenMaximumGenericStringAt_ShouldReturnGenericString()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
   <testcase name="givenMaximumGenericFloatAt_ShouldReturnGenericFloat()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
-  <testcase name="givenMaximumStringAtPosition1_ShouldReturnStringOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
-  <testcase name="givenMaximumIntegerAtPosition2_ShouldReturnIntegerOfPosition2()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
-  <testcase name="givenMaximumStringAtPosition2_ShouldReturnStringOfPosition2()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenMaximumStringAtPosition1_ShouldReturnStringOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
+  <testcase name="givenMaximumIntegerAtPosition2_ShouldReturnIntegerOfPosition2()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenMaximumStringAtPosition2_ShouldReturnStringOfPosition2()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
