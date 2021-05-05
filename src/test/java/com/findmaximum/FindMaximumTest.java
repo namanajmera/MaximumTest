@@ -49,4 +49,26 @@ public class FindMaximumTest {
         Double result = findMaximum.maximum(5.55, 3.33, 4.44);
         Assertions.assertEquals(5.55, result);
     }
+
+    //    Test cases for String Maximum
+    @Test
+    public void givenMaximumStringAtPosition1_ShouldReturnStringOfPosition1() {
+        FindMaximum findMaximum = new FindMaximum();
+        String result = findMaximum.maximum("Peach","Apple","Banana");
+        Assertions.assertEquals("Peach", result);
+    }
+
+    @Test
+    public void givenMaximumStringAtPosition2_ShouldReturnStringOfPosition2() {
+        FindMaximum findMaximum = new FindMaximum();
+        String result = findMaximum.maximum("Apple","Peach","Banana");
+        Assertions.assertEquals("Peach", result);
+    }
+
+    @Test
+    public void givenMaximumStringAtPosition3_ShouldReturnStringOfPosition3() {
+        FindMaximum findMaximum = new FindMaximum();
+        String result = findMaximum.maximum("Banana","Apple","Peach");
+        Assertions.assertEquals("Peach", result);
+    }
 }
