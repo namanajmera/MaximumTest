@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.findmaximum.FindMaximumTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-05-05T06:32:32" hostname="HACKERNAMAN" time="0.032">
+<testsuite name="com.findmaximum.FindMaximumTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-05-05T07:08:26" hostname="HACKERNAMAN" time="0.056">
   <properties/>
-  <testcase name="givenMaximumStringAtPosition3_ShouldReturnStringOfPosition3()" classname="com.findmaximum.FindMaximumTest" time="0.016"/>
+  <testcase name="givenMaximumStringAtPosition3_ShouldReturnStringOfPosition3()" classname="com.findmaximum.FindMaximumTest" time="0.015"/>
   <testcase name="givenGenericStringValue_ShouldReturnMaximumStringValue()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
-  <testcase name="givenMaximumFloatAtPosition1_ShouldReturnFloatOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
-  <testcase name="givenMaximumFloatAtPosition2_ShouldReturnFloatOfPosition2()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
-  <testcase name="givenMaximumFloatAtPosition3_ShouldReturnFloatOfPosition3()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
-  <testcase name="givenMultipleIntegersValue_ShouldReturnMaximumIntegerValue()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenMaximumFloatAtPosition1_ShouldReturnFloatOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
+  <testcase name="givenMaximumFloatAtPosition2_ShouldReturnFloatOfPosition2()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
+  <testcase name="givenMaximumFloatAtPosition3_ShouldReturnFloatOfPosition3()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
+  <testcase name="givenMultipleIntegersValue_ShouldReturnMaximumIntegerValue()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
   <testcase name="givenMaximumIntegerAtPosition1_ShouldReturnIntegerOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
-  <testcase name="givenMultipleStringValue_ShouldReturnMaximumStringValue()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
+  <testcase name="givenMultipleStringValue_ShouldReturnMaximumStringValue()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
   <testcase name="givenGenericIntegerValue_ShouldReturnMaximumIntegerValue()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
   <testcase name="givenMaximumIntegerAtPosition3_ShouldReturnIntegerOfPosition3()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
-  <testcase name="givenGenericFloatValue_ShouldReturnMaximumFloatValue()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
-  <testcase name="givenMaximumGenericIntegerAt_ShouldReturnGenericInteger()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
+  <testcase name="givenValueFloat_ShouldReturnMaximumFloatAndPrintMaximum()" classname="com.findmaximum.FindMaximumTest" time="0.015"/>
+  <testcase name="givenGenericFloatValue_ShouldReturnMaximumFloatValue()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenMaximumGenericIntegerAt_ShouldReturnGenericInteger()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenValueInteger_ShouldReturnMaximumIntegerAndPrintMaximum()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
   <testcase name="givenMaximumGenericStringAt_ShouldReturnGenericString()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
-  <testcase name="givenMaximumGenericFloatAt_ShouldReturnGenericFloat()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
-  <testcase name="givenMultipleFloatValue_ShouldReturnMaximumFloatValue()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
-  <testcase name="givenMaximumStringAtPosition1_ShouldReturnStringOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
-  <testcase name="givenMaximumIntegerAtPosition2_ShouldReturnIntegerOfPosition2()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenMaximumGenericFloatAt_ShouldReturnGenericFloat()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenValueString_ShouldReturnMaximumStringAndPrintMaximum()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenMultipleFloatValue_ShouldReturnMaximumFloatValue()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
+  <testcase name="givenMaximumStringAtPosition1_ShouldReturnStringOfPosition1()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
+  <testcase name="givenMaximumIntegerAtPosition2_ShouldReturnIntegerOfPosition2()" classname="com.findmaximum.FindMaximumTest" time="0.001"/>
   <testcase name="givenMaximumStringAtPosition2_ShouldReturnStringOfPosition2()" classname="com.findmaximum.FindMaximumTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[Maximum among these three 1.33 2.43 4.44 is:- 4.44
+Maximum among these three 1 2 3 is:- 3
+Maximum among these three Apple Peaches Banana is:- Peaches
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

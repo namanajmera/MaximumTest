@@ -122,4 +122,27 @@ public class FindMaximumTest {
         String result = FindMaximum.maximum("Apple","Peach","Banana","Pineapple","Grapes","Black Berry","Mango","Watermelon");
         Assertions.assertEquals("Watermelon", result);
     }
+
+//    Printing the maximum value
+
+    @Test
+    public void givenValueInteger_ShouldReturnMaximumIntegerAndPrintMaximum() {
+        FindMaximum<Integer> integerFindMaximum=new FindMaximum<>(1,2,3);
+        Integer result = integerFindMaximum.printMax();
+        Assertions.assertEquals(3, result);
+    }
+
+    @Test
+    public void givenValueFloat_ShouldReturnMaximumFloatAndPrintMaximum() {
+        FindMaximum<Float> floatFindMaximum=new FindMaximum<>(1.33f,2.43f,4.44f);
+        Float result = floatFindMaximum.printMax();
+        Assertions.assertEquals(4.44f, result);
+    }
+
+    @Test
+    public void givenValueString_ShouldReturnMaximumStringAndPrintMaximum() {
+        FindMaximum<String> stringFindMaximum=new FindMaximum<>("Apple", "Peaches","Banana");
+        String result = stringFindMaximum.printMax();
+        Assertions.assertEquals("Peaches", result);
+    }
 }

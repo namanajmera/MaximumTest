@@ -72,4 +72,10 @@ public class FindMaximum<T extends Comparable<T>> {
     public T testMaximum() {
         return maximum(firstValue, secondValue, thirdValue);
     }
+
+    public <T extends  Comparable<T>> T printMax()
+    {
+        System.out.println("Maximum among these three "+firstValue+" "+secondValue+" "+thirdValue+" is:- "+testMaximum());
+        return (T) testMaximum();
+    }
 }
