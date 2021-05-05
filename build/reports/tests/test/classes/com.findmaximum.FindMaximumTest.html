@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.039s</div>
+<div class="counter">0.072s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,62 +79,62 @@
 </thead>
 <tr>
 <td class="success">givenGenericFloatValue_ShouldReturnMaximumFloatValue()</td>
-<td class="success">0s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenGenericIntegerValue_ShouldReturnMaximumIntegerValue()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenGenericStringValue_ShouldReturnMaximumStringValue()</td>
-<td class="success">0.001s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenMaximumFloatAtPosition1_ShouldReturnFloatOfPosition1()</td>
-<td class="success">0.001s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenMaximumFloatAtPosition2_ShouldReturnFloatOfPosition2()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenMaximumFloatAtPosition3_ShouldReturnFloatOfPosition3()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenMaximumGenericFloatAt_ShouldReturnGenericFloat()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenMaximumGenericIntegerAt_ShouldReturnGenericInteger()</td>
-<td class="success">0s</td>
+<td class="success">0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenMaximumGenericStringAt_ShouldReturnGenericString()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenMaximumIntegerAtPosition1_ShouldReturnIntegerOfPosition1()</td>
-<td class="success">0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">givenMaximumIntegerAtPosition2_ShouldReturnIntegerOfPosition2()</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">givenMaximumIntegerAtPosition2_ShouldReturnIntegerOfPosition2()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">givenMaximumIntegerAtPosition3_ShouldReturnIntegerOfPosition3()</td>
-<td class="success">0s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -144,37 +144,37 @@
 </tr>
 <tr>
 <td class="success">givenMaximumStringAtPosition2_ShouldReturnStringOfPosition2()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenMaximumStringAtPosition3_ShouldReturnStringOfPosition3()</td>
-<td class="success">0.015s</td>
+<td class="success">0.034s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenMultipleFloatValue_ShouldReturnMaximumFloatValue()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenMultipleIntegersValue_ShouldReturnMaximumIntegerValue()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenMultipleStringValue_ShouldReturnMaximumStringValue()</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenValueFloat_ShouldReturnMaximumFloatAndPrintMaximum()</td>
-<td class="success">0.015s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">givenValueInteger_ShouldReturnMaximumIntegerAndPrintMaximum()</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -187,9 +187,24 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>Maximum among these three 1.33 2.43 4.44 is:- 4.44
-Maximum among these three 1 2 3 is:- 3
-Maximum among these three Apple Peaches Banana is:- Peaches
+<pre>Max of Banana, Apple and Peach is Peach
+Max of Apple, Peach and Banana is Peach
+Max of 5.44, 3.33 and 4.44 is 5.44
+Max of 3.3, 5.55 and 4.4 is 5.55
+Max of 4.44, 3.33 and 5.55 is 5.55
+Max of 5, 3 and 4 is 5
+Max of 3, 4 and 5 is 5
+Max of 3, 4 and 5 is 5
+Max of 1.33, 2.43 and 4.44 is 4.44
+Max of 5.55, 4.44 and 3.33 is 5.55
+Max of 5, 4 and 3 is 5
+Max of 1, 2 and 3 is 3
+Max of Apple, Peach and Banana is Peach
+Max of 3.33, 4.44 and 5.55 is 5.55
+Max of Apple, Peaches and Banana is Peaches
+Max of Peach, Apple and Banana is Peach
+Max of 3, 5 and 4 is 5
+Max of Apple, Peach and Banana is Peach
 </pre>
 </span>
 </div>
@@ -201,7 +216,7 @@ Maximum among these three Apple Peaches Banana is:- Peaches
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8</a> at 05-May-2021, 12:38:26 pm</p>
+<a href="http://www.gradle.org">Gradle 6.8</a> at 05-May-2021, 4:42:23 pm</p>
 </div>
 </div>
 </body>

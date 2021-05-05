@@ -58,10 +58,15 @@ public class FindMaximum<T extends Comparable<T>> {
         if (num3.compareTo(max) > 0) {
             max = num3;
         }
+        printMax(num1,num2,num3,max);
         return max;
     }
 
-//    Putting Multiple Inputs in Parameters using varargs
+    private static <T extends Comparable<T>> void printMax(T num1, T num2, T num3, T max) {
+        System.out.printf("Max of %s, %s and %s is %s\n",num1,num2,num3,max);
+    }
+
+    //    Putting Multiple Inputs in Parameters using varargs
     @SafeVarargs
     public static <T extends Comparable<T>> T maximum(T... values) {
         List<T> tList = Arrays.asList(values);
@@ -71,11 +76,5 @@ public class FindMaximum<T extends Comparable<T>> {
 
     public T testMaximum() {
         return maximum(firstValue, secondValue, thirdValue);
-    }
-
-    public <T extends  Comparable<T>> T printMax()
-    {
-        System.out.println("Maximum among these three "+firstValue+" "+secondValue+" "+thirdValue+" is:- "+testMaximum());
-        return (T) testMaximum();
     }
 }

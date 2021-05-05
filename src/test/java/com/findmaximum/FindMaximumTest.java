@@ -128,21 +128,21 @@ public class FindMaximumTest {
     @Test
     public void givenValueInteger_ShouldReturnMaximumIntegerAndPrintMaximum() {
         FindMaximum<Integer> integerFindMaximum=new FindMaximum<>(1,2,3);
-        Integer result = integerFindMaximum.printMax();
+        Integer result = integerFindMaximum.testMaximum();
         Assertions.assertEquals(3, result);
     }
 
     @Test
     public void givenValueFloat_ShouldReturnMaximumFloatAndPrintMaximum() {
         FindMaximum<Float> floatFindMaximum=new FindMaximum<>(1.33f,2.43f,4.44f);
-        Float result = floatFindMaximum.printMax();
+        Float result = floatFindMaximum.testMaximum();
         Assertions.assertEquals(4.44f, result);
     }
 
     @Test
     public void givenValueString_ShouldReturnMaximumStringAndPrintMaximum() {
         FindMaximum<String> stringFindMaximum=new FindMaximum<>("Apple", "Peaches","Banana");
-        String result = stringFindMaximum.printMax();
+        String result = stringFindMaximum.testMaximum();
         Assertions.assertEquals("Peaches", result);
     }
 }
